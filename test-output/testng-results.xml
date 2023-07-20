@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Registration Testing completed !]]>
+    </line>
+    <line>
+      <![CDATA[Sigin Testing completed !]]>
+    </line>
+    <line>
+      <![CDATA[Searchbar Testing completed !]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart Testing completed !]]>
+    </line>
+    <line>
+      <![CDATA[Testing completed !]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-20T13:46:56 IST" name="Default suite" finished-at="2023-07-20T13:48:09 IST" duration-ms="73865">
+    <groups>
+    </groups>
+    <test started-at="2023-07-20T13:46:56 IST" name="Default test" finished-at="2023-07-20T13:48:09 IST" duration-ms="73865">
+      <class name="com.example.NewTest1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.example.NewTest1@b9b00e0]" started-at="2023-07-20T13:46:56 IST" name="beforeTest" finished-at="2023-07-20T13:46:58 IST" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="registrationTest()[pri:1, instance:com.example.NewTest1@b9b00e0]" started-at="2023-07-20T13:46:58 IST" name="registrationTest" finished-at="2023-07-20T13:47:08 IST" duration-ms="10276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration Testing completed !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method signature="signinTest()[pri:2, instance:com.example.NewTest1@b9b00e0]" started-at="2023-07-20T13:47:08 IST" name="signinTest" finished-at="2023-07-20T13:47:28 IST" depends-on-methods="com.example.NewTest1.registrationTest" duration-ms="19395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sigin Testing completed !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signinTest -->
+        <test-method signature="searchbarTest()[pri:3, instance:com.example.NewTest1@b9b00e0]" started-at="2023-07-20T13:47:28 IST" name="searchbarTest" finished-at="2023-07-20T13:47:35 IST" depends-on-methods="com.example.NewTest1.signinTest" duration-ms="7267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searchbar Testing completed !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchbarTest -->
+        <test-method signature="addToCartTest()[pri:4, instance:com.example.NewTest1@b9b00e0]" started-at="2023-07-20T13:47:35 IST" name="addToCartTest" finished-at="2023-07-20T13:48:09 IST" depends-on-methods="com.example.NewTest1.searchbarTest" duration-ms="34291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add to cart Testing completed !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.example.NewTest1@b9b00e0]" started-at="2023-07-20T13:48:09 IST" name="afterTest" finished-at="2023-07-20T13:48:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing completed !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.example.NewTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
